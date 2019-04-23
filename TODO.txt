@@ -1,2 +1,4 @@
 - Mudar cor dos links que a navbar está no momento
-
+- Corrigir footers
+- Alterar o endereço das páginas
+- Colocar background
