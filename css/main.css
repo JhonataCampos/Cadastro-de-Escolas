@@ -1,0 +1,39 @@
+#footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height:2.5rem;
+}
+
+#searchbox{
+    text-align:center;
+    margin:auto;
+    width:500px;
+}
+
+#content{
+    position: relative;
+    min-height: 100vh;
+}
+
+#wrap-content{
+    padding-bottom: 2.5rem;
+}
+
+button{
+    margin:15px;
+}
+
+h4{
+    margin:10% auto 5%;
+    text-align:center;
+}
+
+input{
+    margin: 15% auto;
+    width:50%;
+}
+
+.jumbotron p{
+    font-size:15px;
+}

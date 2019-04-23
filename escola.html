@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>SEBRA - Sistema de Cadastro de Escolas Brasileiras</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="teste-front.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav id="navbar1" class="navbar navbar-expand-md navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="main.html" class="navbar-brand">SEBRA</a>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2" aria-expanded="false">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar2" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="projetoSebra.html">Projeto SEBRA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Quem Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faleConosco.html">Fale Conosco</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login(???)</a></li>
+                    </ul>
+                </div>
+            </div>            
+        </nav>
+        
+        <!--Conteúdo da escola selecionada-->
+        <div class="container">
+                <!--Aqui será necessária a integração com BD-->
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <h2>Escola Fulana de Tal</h2>
+                    <p>Endereço: XXXXXXXXXXXX</p>
+                    <p>Telefones: XXXXXXXXXXXX</p>
+                    <p>Cidade: XXXXXXXXXXXX</p>
+                    <p>Horário de Atendimento: XXXXXXXXXXXX</p>
+                    <p>Adicional: XXXXXXXXXXXX</p>       
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <a href="endereco_da_escola"><img src="imagem_da_escola.jpg"></a> 
+                </div>
+            </div> 
+            <p id="link_fale">Encontrou algum erro?<a href="faleConosco.html"> Fale Conosco!</a></p>                
+        </div>
+    </body>
+
+</html>
