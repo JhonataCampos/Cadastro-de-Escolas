@@ -8,16 +8,7 @@
 #searchbox{
     text-align:center;
     margin:auto;
-    width:500px;
-}
-
-#content{
-    position: relative;
-    min-height: 100vh;
-}
-
-#wrap-content{
-    padding-bottom: 2.5rem;
+    width:50%;
 }
 
 button{
@@ -32,8 +23,4 @@ h4{
 input{
     margin: 15% auto;
     width:50%;
-}
-
-.jumbotron p{
-    font-size:15px;
 }
