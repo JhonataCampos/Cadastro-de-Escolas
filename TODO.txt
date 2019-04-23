@@ -1,7 +1,19 @@
-﻿- Mudar cor dos links que a navbar está no momento
-- Corrigir footers
-- Alterar o endereço das páginas
+﻿TO DO/DOING
+
 - Colocar background
-- Alterar/Inserir Google Fonts
-- Modificar tabelas da página "pesquisa.html"
 - DEFINIR SE A PÁGINA LOGIN SERÁ INSERIDA OU NÃO
+- Inserir Carrossel na página "Projeto Sebra" (talvez)
+- Substituir textos/imagens por algo real
+- Escolher paleta de cores apropriada
+
+----------------------------------------------------------------------------
+DONE
+
+- Modificar tabelas da página "pesquisa.html"
+- Alterar o endereço das páginas
+- Consertar NavBar
+- Renomear e endereçar os CSS
+- Arrumar barra de pesquisa
+- Corrigir footers
+- Alterar/Inserir Google Fonts
+

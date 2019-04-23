@@ -2,8 +2,9 @@
     <head>
         <meta charset="utf-8">
         <title>SEBRA - Sistema de Cadastro de Escolas Brasileiras</title>
-        <link rel="stylesheet" type="text/css" href="bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="teste-front.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/pesquisa.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Source+Sans+Pro" rel="stylesheet">
     </head>
     <body>
         <!--NAVBAR-->
@@ -31,137 +32,173 @@
                 </div>
             </div>            
         </nav>
+        <div class="container" id="page">
+        <!--Também deve ser conectado com o BD-->
+            <p>A pesquisa retornou N resultados:</p>
 
-        <input id="search" value="pesquisa" type="text" placeholder="Pesquise sua Escola">       
-        
-        <!--Tabela com as escolas e as informações mais relevantes-->
-        <!-- A TABELA VAI TER NO MÁXIMO 15 ELEMENTOS-->
-        <div class="escolas">
-            <table border = '1'>
-            <thead>
-                <tr>
-                    <th>Escolas</th>
-                    <th>Endereço</th>
-                    <th>Cidade/Bairro</th>
-                    <th>Telefone</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
+            <div class="input-group container" id="searchbox">
+                <input type="text" class="form-control" placeholder="Pesquise sua Escola">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Pesquisar</button>
+                    </span>
+                </div>
+            </div>
 
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr><tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
+            <!--Tabela com as escolas e as informações mais relevantes-->
+            <!-- A TABELA VAI TER NO MÁXIMO 15 ELEMENTOS-->
+            <div class="escolas container">
+                <table class="table table-striped table-sm" align="center">
+                <thead>
+                    <tr>
+                        <th>Escolas</th>
+                        <th>Endereço</th>
+                        <th>Cidade/Bairro</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
 
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr><tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
 
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-                <tr>
-                    <td><a href="teste2-front.html">Teste</a></td>
-                    <td>Endereço Aleatório</td>
-                    <td>Sorocaba - Inferno</td>
-                    <td>(11)9 9999-9999</td>
-                </tr>
-            </tbody>
-              
-            </table>
-        </div>   
-        <!--Aqui temos a paginação-->
-        <div class="paginacao">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">&raquo;</a>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                    <tr>
+                        <td><a href="escola.html">Teste</a></td>
+                        <td>Endereço Aleatório</td>
+                        <td>Sorocaba</td>
+                        <td>(11)9 9999-9999</td>
+                    </tr>
+                </tbody>
+                
+                </table>
+            </div>   
+            <!--Aqui temos a paginação-->
+            <nav aria-label="..." class="paginacao">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="pesquisa.html" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1<span class="sr-only">(current)</span></a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2 </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </body>
-
+     <!--FOOTER-->
+        <footer id="footer" class="page-footer font-small teal pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?</p>
+                    </div>
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <!-- Content -->
+                        <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi hic.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="projetoSebra.html">Universidade Federal de São Carlos - 2019</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
