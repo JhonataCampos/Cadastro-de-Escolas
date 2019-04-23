@@ -11,6 +11,11 @@ img{
     height:20px;
 }
 
+#cat{
+    width:80%;
+    height:40%;
+}
+
 p{
     text-align:center;
 }
@@ -44,4 +49,9 @@ h4{
 
 #paragraph{
     margin-top:2%;
+}
+
+.btn-success{
+    margin-top: 7px;
+    width: 100%;
 }
