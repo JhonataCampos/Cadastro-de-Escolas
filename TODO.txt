@@ -1,4 +1,7 @@
-- Mudar cor dos links que a navbar está no momento
+﻿- Mudar cor dos links que a navbar está no momento
 - Corrigir footers
 - Alterar o endereço das páginas
 - Colocar background
+- Alterar/Inserir Google Fonts
+- Modificar tabelas da página "pesquisa.html"
+- DEFINIR SE A PÁGINA LOGIN SERÁ INSERIDA OU NÃO
