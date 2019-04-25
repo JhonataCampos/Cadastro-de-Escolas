@@ -5,6 +5,7 @@
 - Inserir Carrossel na página "Projeto Sebra" (talvez)
 - Substituir textos/imagens por algo real
 - Escolher paleta de cores apropriada
+- Setar Titles and Icos
 
 ----------------------------------------------------------------------------
 DONE

@@ -4,6 +4,7 @@ body{
 
 .escolas{
     margin:auto;
+    padding: 2% 5% 5% 5%;
 }
 th{
     text-align: center;
@@ -11,6 +12,7 @@ th{
 
 table{
     text-align:center;
+    padding: 5%;
 }
 
 .paginacao{
@@ -25,10 +27,20 @@ table{
     margin-bottom:3%
 }
 
-p{
+#return{
+    padding-top:2%;
     font-size: 25px;
 }
 
 #footer{
     margin-bottom:3%;
+}
+
+#filtro{
+    display: flex;
+    padding-left:5%;
+}
+
+#btn-filtro{
+    border-radius:5px;
 }
