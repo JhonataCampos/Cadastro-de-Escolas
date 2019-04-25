@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>SEBRA - Sistema de Cadastro de Escolas Brasileiras</title>
+        <title>Escolas - SEBRA</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/pesquisa.css">
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Source+Sans+Pro" rel="stylesheet">
@@ -36,10 +36,10 @@
         <!--Também deve ser conectado com o BD-->
             <p id="return">A pesquisa retornou N resultados:</p>
 
-            <div class="input-group container" id="searchbox">
+            <form class="input-group container" action="pesquisa.html" method="GET" id="searchbox">
                 <input type="text" class="form-control" placeholder="Pesquise sua Escola">
                     <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Pesquisar</button>
+                    <button class="btn btn-default" type="submit">Pesquisar</button>
                     </span>
                 </div>
             </div>
@@ -198,7 +198,7 @@
         <footer id="footer" class="page-footer font-small teal pt-4">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
-                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <hr id="footer-hr" class="clearfix w-100 d-md-none pb-3">
                     <div class="col-md-6 mt-md-0 mt-3">
                             <h5 class="text-uppercase font-weight-bold">Dúvidas</h5>
                             <p>Não vê sua escola aqui? Entre em contato conosco!</p>

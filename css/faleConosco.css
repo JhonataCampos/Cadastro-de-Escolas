@@ -6,14 +6,21 @@ textarea{
     resize:none;
 }
 
-img{
+.ico{
     width:20px;
     height:20px;
 }
 
-#cat{
-    width:80%;
-    height:40%;
+.thumbnail{
+    border:0;
+    padding:0;
+    margin:0%;
+}
+
+#fale-img{
+    width:50%;
+    height:30%;
+    border:0;
 }
 
 p{
@@ -22,7 +29,7 @@ p{
 
 .box{
     padding:0 15%;
-    margin-bottom:10%;
+    padding-bottom:10%;
 }
 
 #contatos{
@@ -40,11 +47,7 @@ form{
 h4{
     text-align:center;
     margin:3%;
-    margin-top: 1.3%;
-}
-
-#footer{
-    margin-bottom:3%;
+    padding-top: 2.3%;
 }
 
 #paragraph{
@@ -54,4 +57,45 @@ h4{
 .btn-success{
     margin-top: 7px;
     width: 100%;
+}
+
+/*Configurações Gerais*/
+
+#footer{
+    padding-bottom:3%;
+    background-color: #04151F; 
+    color:white;
+}
+
+.navbar{
+    margin-bottom:0;
+    background-color: #04151F;
+    border: #04151F;
+    border-radius:0;
+    color:white;
+    
+}
+
+#footer-hr{
+    border-top:#432534;
+}
+
+/*letras da navbar*/
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#EFD6AC;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:white;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#EFD6AC;
+    
 }

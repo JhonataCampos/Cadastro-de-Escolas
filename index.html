@@ -33,38 +33,40 @@
                 </div>
             </div>            
         </nav>
-
-        <!--Searchbar-->
-        <!--Ligar com o BD todos os filtros-->
-        <div class="container" id="page">
-            <h4>As escolas de SP, todas em um mesmo lugar.</h4>
-            <div id="searchbox" class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Pesquise sua Escola" aria-label="Pesquisar">
-                <span class="input-group-append">
-                      <a href="pesquisa.html"><button class="btn btn-outline-secondary" type="button">Pesquisar</button></a> 
-                </span>
+        <div class="background">
+            <!--Searchbar-->
+            <!--Ligar com o BD todos os filtros-->
+            <div class="container" id="page">
+                <h4>As escolas de SP, todas em um mesmo lugar.</h4>
+                <form id="searchbox" class="input-group mb-3" action="pesquisa.html" method="GET">
+                    <input type="text" class="form-control" placeholder="Pesquise sua Escola" aria-label="Pesquisar">
+                    <span class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit" value="true">Pesquisar</button> 
+                    </span>
+                </form>
             </div>
         </div>
-        <!--FOOTER-->
-        <footer id="footer" class="page-footer font-small teal pt-4">
-            <div class="container-fluid text-center text-md-left">
-                <div class="row">
-                    <hr class="clearfix w-100 d-md-none pb-3">
-                    <div class="col-md-6 mt-md-0 mt-3">
-                        <h5 class="text-uppercase font-weight-bold">Dúvidas</h5>
-                        <p>Não vê sua escola aqui? Entre em contato conosco!</p>
-                    </div>
-                    <div class="col-md-6 mb-md-0 mb-3">
-                        <!-- Content -->
-                        <h5 class="text-uppercase font-weight-bold">Aviso</h5>
-                        <p>O projeto SEBRA ainda está em prototipação, logo, podemos dizer que o escopo do projeto ainda é pequeno, mas logo poderemos atender um grande escala!</p>
+            <!--FOOTER-->
+            <footer id="footer" class="page-footer font-small teal pt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <hr id="footer-hr"class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <h5 class="text-uppercase font-weight-bold">Dúvidas</h5>
+                            <p>Não vê sua escola aqui? Entre em contato conosco!</p>
+                        </div>
+                        <div class="col-md-6 mb-md-0 mb-3">
+                            <!-- Content -->
+                            <h5 class="text-uppercase font-weight-bold">Aviso</h5>
+                            <p>O projeto SEBRA ainda está em prototipação, logo, podemos dizer que o escopo do projeto ainda é pequeno, mas logo poderemos atender um grande escala!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                <a href="https://www.sorocaba.ufscar.br/">Universidade Federal de São Carlos - 2019</a>
-            </div>
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                    <a href="https://www.sorocaba.ufscar.br/">Universidade Federal de São Carlos - 2019</a>
+                </div>
+            
             <!-- Copyright -->
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.0.js" crossorigin="anonymous"></script>

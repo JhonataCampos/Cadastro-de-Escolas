@@ -32,10 +32,6 @@ table{
     font-size: 25px;
 }
 
-#footer{
-    margin-bottom:3%;
-}
-
 #filtro{
     display: flex;
     padding-left:5%;
@@ -43,4 +39,55 @@ table{
 
 #btn-filtro{
     border-radius:5px;
+}
+
+/*Configurações Gerais*/
+
+#footer{
+    padding-bottom:3%;
+    background-color: #04151F; 
+    color:white;
+}
+
+.navbar{
+    margin-bottom:0;
+    background-color: #04151F;
+    border: #04151F;
+    border-radius:0;
+    color:white;
+    
+}
+
+#footer-hr{
+    border-top:#432534;
+}
+
+/*letras da navbar*/
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.input-group .form-control:first-child{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.input-group-btn:last-child > .btn{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#EFD6AC;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:white;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#EFD6AC;
+    
 }

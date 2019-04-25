@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>SEBRA - Sistema de Cadastro de Escolas Brasileiras</title>
+        <!-- O Título tem que ser configurado de acordo com o nome da escola-->
+        <title>Nome da Escola escolhida</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/escola.css">
@@ -37,10 +38,11 @@
         <!--Conteúdo da escola selecionada-->
         <div class="container" id="escola">
                 <!--Aqui será necessária a integração com BD-->
-            <h2>Escola Fulana de Tal</h2>
+           
             </br>
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
+                    <h2>Escola Fulana de Tal</h2>
                     <p>Endereço: XXXXXXXXXXXX</p>
                     <p>Telefones: XXXXXXXXXXXX</p>
                     <p>Cidade: XXXXXXXXXXXX</p>
@@ -49,7 +51,7 @@
                 </div>
                 <div class="col-lg-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="endereco_da_escola"><img src="img/School.jpg"></a> 
+                        <a href="endereco_da_escola"><img src="css/img/School.jpg"></a> 
                     </div>    
                 </div>
             </div> 
@@ -60,7 +62,7 @@
     <footer id="footer" class="page-footer font-small teal pt-4">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
-                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <hr id="footer-hr" class="clearfix w-100 d-md-none pb-3">
                     <div class="col-md-6 mt-md-0 mt-3">
                         <h5 class="text-uppercase font-weight-bold">Dúvidas</h5>
                         <p>Não vê sua escola aqui? Entre em contato conosco!</p>

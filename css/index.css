@@ -1,6 +1,8 @@
 body{
     font-family: "Lato", sans-serif;
+    color:white;
 }
+
 
 #searchbox{
     text-align:center;
@@ -10,6 +12,7 @@ body{
 
 button{
     margin:15px;
+    background-color: #3AAED8;
 }
 
 h4{
@@ -23,9 +26,58 @@ input{
 }
 
 #page{
-    margin-bottom:15%;
+    padding-bottom:15%;
+    padding-top:3%
+    
 }
 
+.background{
+    background-image: url(img/chalkboard.jpg);
+    color:white;
+}
+
+.input-group .form-control:first-child{
+    border-radius: 15px;
+}
+
+
+/*Configurações Gerais*/
+
 #footer{
-    margin-bottom:3%;
+    padding-bottom:3%;
+    background-color: #04151F; 
+    color:white;
+}
+
+.navbar{
+    margin-bottom:0;
+    background-color: #04151F;
+    border: #04151F;
+    border-radius:0;
+    color:white;
+    
+}
+
+#footer-hr{
+    border-top:#432534;
+}
+
+/*letras da navbar*/
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#EFD6AC;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:white;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#EFD6AC;
+    
 }

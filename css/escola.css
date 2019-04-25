@@ -2,24 +2,64 @@ body{
     font-family: "Lato", sans-serif;
 }
 
-#footer{
-    margin-bottom:3%;
-}
-
 #escola{
    border:1px solid black;
    border-radius:5px;
    margin-right:auto;
    margin-left:auto;
    margin-top:5%;
-   margin-bottom:10%;
+   margin-bottom:7%;
    padding: 2% 5% 5% 5%;
 }
 
 h2{
-    margin-bottom:1%;
+    padding-bottom:1.5%;
 }
 
 .thumbnail{
-    border-radius: 3%;
+    border:0;
+    margin:0;
+    padding-top:2%;
+}
+
+
+/*Configurações Gerais*/
+
+#footer{
+    padding-bottom:3%;
+    background-color: #04151F; 
+    color:white;
+}
+
+.navbar{
+    margin-bottom:0;
+    background-color: #04151F;
+    border: #04151F;
+    border-radius:0;
+    color:white;
+    
+}
+
+#footer-hr{
+    border-top:#432534;
+}
+
+/*letras da navbar*/
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#EFD6AC;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:white;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#EFD6AC;
+    
 }
