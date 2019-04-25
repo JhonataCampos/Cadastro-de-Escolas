@@ -1,8 +1,0 @@
-theme: jekyll-theme-cayman
-deploy:
-type: git
-repo: https://github.com/JhonataCampos/Cadastro-de-Escolas.git
-branch: master
-message: Enjoy!
-future: true
-timezone: Brazil
